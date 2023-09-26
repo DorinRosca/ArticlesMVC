@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<ArticleApp.Web.UI.Article.Models.ArticleViewModel>
+
+<header class="masthead" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fabove-view-home-desk-picture-id646645186%3Fk%3D6%26m%3D646645186%26s%3D170667a%26w%3D0%26h%3DHMJoOfCtNr8bbhmV1nVe0ykxgIqgqcHo16zIlB-AUj0%3D&f=1&nofb=1&ipt=d5b542057432202df9aa3ccadee730eb4c9ed7a67af8baf27b0f4dd313889e9f&ipo=images')">
+     <div class="container position-relative px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+               <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading">
+                         <h1>Clean Blog</h1>
+                         <span class="subheading">Personal created Articles</span>
+                    </div>
+               </div>
+          </div>
+     </div>
+</header>
+<form method="post" action="@Url.Action("Add", "Article")">
+     <center>
+          <button type="d-flex justify-content-end mb-4" class="btn btn-primary text-uppercase">Add new Article</button>
+     </center>
+
+</form>
+<div class="container px-4 px-lg-5">
+<div class="row gx-4 gx-lg-5 justify-content-center">
+     <div class="col-md-10 col-lg-8 col-xl-7">
+          @foreach (var item in Model)
+          {
+               <!-- Divider-->
+               <hr class="my-4"/>
+
+               <!-- Post preview-->
+               <div class="post-preview">
+                    <a href="@Url.Action("Update", "Article", new { id = item.ArticleId })">
+                         <h2 class="post-title">@item.Title</h2>
+                         <h3 class="post-subtitle">@item.Message</h3>
+                    </a>
+                    <p class="post-meta">
+                         Posted by
+                         <a>@item.Author</a>
+                         on @item.TimeCreated.Date
+                    </p>
+               </div>
+
+               <form method="post" action="@Url.Action("Delete", "Article")">
+                         <input type="hidden" name="ArticleId" id="ArticleId" value="@item.ArticleId" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+               </form>
+
+               <!-- Divider-->
+               <hr class="my-4"/>
+          }
+
+     </div>
+</div>
+</div>

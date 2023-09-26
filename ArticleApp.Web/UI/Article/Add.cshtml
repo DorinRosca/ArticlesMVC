@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model ArticleApp.Web.UI.Article.Models.ArticleViewModel
+<!-- Page Header-->
+        <header class="masthead" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fview-above-wooden-desk-laptop-mouse-notepad-notebook-smartphone-cup-coffee-office-copy-space-117843067.jpg&f=1&nofb=1&ipt=e80f55fcff3fba21e1addc0dc52c04434664121167bb4a4d4440a1821144d908&ipo=images')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Create</h1>
+                            <span class="subheading">Your Own Article.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>Create your own article using the template below!</p>
+                        <div class="my-5">
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- * * SB Forms Contact Form * *-->
+                            <!-- * * * * * * * * * * * * * * *-->
+                            <!-- This form is pre-integrated with SB Forms.-->
+                            <!-- To make this form functional, sign up at-->
+                            <!-- https://startbootstrap.com/solution/contact-forms-->
+                            <!-- to get an API token!-->
+                            <form method="post" action="@Url.Action("Add", "Article")">
+                                <div class="form-floating">
+                                    <input class="form-control" inputmode ="text" id="Title" name ="Title" type="text" placeholder="Title" data-sb-validations="required" />
+                                    <label for="Title">Title</label>
+                                    <span class="text-danger">@Html.ValidationMessageFor(model => model.Title)</span>
+                                    <div class="invalid-feedback" data-sb-feedback="title:required">A title is required.</div>
+                                </div>
+                                 <div class="form-floating">
+                                      <input class="form-control" inputmode ="text" id="Author" name ="Author" type="text" placeholder="Title" data-sb-validations="required" />
+                                      <label for="Author">Author</label>
+                                      <span class="text-danger">@Html.ValidationMessageFor(model => model.Author)</span>
+                                      <div class="invalid-feedback" data-sb-feedback="author:required">An Author is required.</div>
+                                 </div>
+                                 <div class="form-floating">
+                                      <input class="form-control" inputmode ="text" id="Message" name ="Message" style="height: 12rem" type="text" placeholder="Message" data-sb-validations="required" />
+                                      <label for="Message">Message</label>
+                                      <span class="text-danger">@Html.ValidationMessageFor(model => model.Message)</span>
+                                      <div class="invalid-feedback" data-sb-feedback="author:required">An Message is required.</div>
+                                 </div>
+                                <br />
+                                <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Add Card</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        

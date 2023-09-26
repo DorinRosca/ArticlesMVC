@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ArticleApp.Web
+build_property.RootNamespace = ArticleApp.Web
+build_property.ProjectDir = C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcQXJ0aWNsZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcQXJ0aWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Article/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcQXJ0aWNsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Home/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcSG9tZVxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Payment/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcUGF5bWVudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Shared/_Navigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2hhcmVkXF9OYXZpZ2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asus/Desktop/c\#SimpleProjects/ArticleApp/ArticleApp.Web/UI/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iwm08em0w0

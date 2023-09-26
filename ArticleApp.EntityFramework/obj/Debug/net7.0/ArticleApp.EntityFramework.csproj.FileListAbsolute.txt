@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\bin\Debug\net7.0\ArticleApp.EntityFramework.deps.json
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\bin\Debug\net7.0\ArticleApp.EntityFramework.runtimeconfig.json
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\bin\Debug\net7.0\ArticleApp.EntityFramework.dll
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\bin\Debug\net7.0\ArticleApp.EntityFramework.pdb
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.AssemblyInfo.cs
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.dll
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\refint\ArticleApp.EntityFramework.dll
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.pdb
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ArticleApp.EntityFramework.genruntimeconfig.cache
+C:\Users\Asus\Desktop\c#SimpleProjects\ArticleApp\ArticleApp.EntityFramework\obj\Debug\net7.0\ref\ArticleApp.EntityFramework.dll
